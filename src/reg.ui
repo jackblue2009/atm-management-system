@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<interface>
+    <object id="regWindow" class="GtkWindow">
+        <property name="visible">True</property>
+        <property name="title">United Bank ATM - Powered by Abdulrahman Bucheeri</property>
+        <property name="border-width">10</property>
+        <property name="default-width">800</property>
+        <property name="default-height">600</property>
+        <child>
+            <object id="reg" class="GtkGrid">
+                <property name="visible">True</property>
+                <property name="halign">center</property>
+                <property name="valign">start</property>
+                <child>
+                    <object id="titleRegLbl" class="GtkLabel">
+                        <property name="visible">True</property>
+                        <property name="label">Create a new user:</property>
+                    </object>
+                    <packing>
+                        <property name="left-attach">2</property>
+                        <property name="top-attach">1</property>
+                        <property name="width">2</property>
+                    </packing>
+                </child>
+            </object>
+        </child>
+    </object>
+</interface>
